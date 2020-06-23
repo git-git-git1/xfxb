@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    background-color: #eeeeee;
+}
+
+.clearFloat:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    /*vertical-align 属性设置元素的垂直对齐方式。
+      top : 把元素的顶端与行中最高元素的顶端对齐
+    */
+    vertical-align: top;
+    border: 0;
+}

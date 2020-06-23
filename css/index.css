@@ -1,0 +1,244 @@
+.xf_header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #9b9b9b;
+    /*固定定位，让头部保持一个位置不动*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.xf_header header{
+    /*background-color: pink;*/
+    width: 1150px;
+    height: 70px;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+
+.xf_header header >a{
+    float: left;
+}
+
+.xf_header header >a img{
+    width: 58px;
+    height: 54px;
+    margin-top: 6px;
+}
+
+.xf_header header .city{
+    float: left;
+    margin-left: 35px;
+    margin-top: 26px;
+    font-size: 12px;
+}
+.xf_header header .city img{
+    width: 10px;
+    height: 16px;
+}
+.xf_header header .city span{
+    margin-left: 7px;
+}
+
+.xf_header header .city a{
+    color: #ffffff;
+    padding: 4px 5px 4px 7px;
+    background-color: #cccccc;
+    margin-left: 9px;
+}
+
+.xf_header header .nav{
+    float: left;
+    margin-left: 60px;
+}
+
+.xf_header header .nav a{
+    color: #191919;
+    font-size: 14px;
+    margin-right: 27px;
+    line-height: 70px;
+}
+
+.xf_header header .nav a:first-child{
+    margin-right: 20px;
+}
+
+.xf_header header .nav a:last-child{
+    margin-right: 0;
+}
+
+.xf_header header .link{
+    float: right;
+    margin-top: 26px;
+}
+
+.xf_header header .link img{
+    float: left;
+    margin-right: 20px;
+}
+
+.xf_header header .link a{
+    color: #191919;
+    border: 1px solid #979797;
+    padding: 7px 11px 7px 11px;
+    margin-left: 8px;
+}
+
+/***********banner*************/
+
+.xf_banner{
+    height: 715px;
+    /*因为头部加了固定定位，所以这里用margin-top加个间距 否则这里一部分会跑到头部后面*/
+    margin-top: 70px;
+}
+
+.xf_banner a img{
+    width: 100%;
+    height: 100%;
+}
+
+/*******category*********/
+
+.xf_category >div{
+    width: 33.33%;
+    height: 511px;
+    float: left;
+    text-align: center;
+}
+
+.xf_category >div:nth-child(1){
+    background-color: #eee2c8;
+}
+
+.xf_category >div:nth-child(2){
+    background-color: #ddc59e;
+}
+
+.xf_category >div:nth-child(3){
+    background-color: #e9daba;
+}
+
+.xf_category >div .imgDiv{
+    width: 527px;
+    height: 307.45px;
+    margin-top: 46px;
+    position: relative;
+}
+
+.xf_category >div .imgDiv img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.xf_category >div:nth-child(1) .imgDiv img{
+    width: 263.5px;
+    height: 179.45px;
+}
+
+.xf_category >div:nth-child(2) .imgDiv img{
+    width: 305.66px;
+    height: 205.09px;
+}
+
+.xf_category >div:nth-child(3) .imgDiv img{
+    width: 263.5px;
+    height: 263.5px;
+}
+
+.xf_category >div .info a{
+    border-bottom: 1px solid #191919;
+    color: #191919;
+    padding-bottom: 7px;
+    display: inline-block;
+}
+
+.xf_category >div .info a span:first-child{
+    font-size: 22px;
+}
+
+.xf_category >div .info a span:last-child{
+    font-size: 16px;
+    margin-left: 9px;
+}
+
+.xf_category >div .info p{
+    font-size: 14px;
+    margin-top: 23px;
+}
+
+/*****footer******/
+.xf_footer footer{
+    width: 100%;
+    height: 115px;
+    background-color: #3d2d23;
+    overflow: hidden;
+}
+
+.xf_footer footer .footer1{
+    margin-top: 34px;
+}
+
+.xf_footer footer .footer1 .footerLeft{
+    float: left;
+}
+
+.xf_footer footer .footer1 .footerRight{
+    float: left;
+}
+
+.xf_footer footer .footer1 .footerLeft a{
+    color: #ffffff;
+    font-size: 14px;
+    padding-right: 45px;
+    padding-left: 50px;
+    border-right: 1px solid #a49d98;
+}
+
+.xf_footer footer .footer1 .footerLeft a:last-child{
+    border: 0;
+}
+
+.xf_footer footer .footer1 .footerRight{
+    margin-left: 30px;
+}
+
+.xf_footer footer .footer1 .footerRight a{
+    color: #ffffff;
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.xf_footer footer .footer1 .footerRight .tel .img{
+    background: url("../img/sprite-08fffb123c.png");
+    background-position: -56px -87px;
+    display: block;
+    width: 19px;
+    height: 19px;
+    float: left;
+    margin-right: 2px;
+    margin-top: 4px;
+}
+
+.xf_footer footer .footer1 .footerRight a:last-child{
+    margin-left: 33px;
+    font-size: 14px;
+}
+
+.xf_footer footer .footer2{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.xf_footer footer .footer2 a{
+    color: #ffffff;
+}
+
+.xf_footer footer .footer2 span{
+    margin-right: 30px;
+}
